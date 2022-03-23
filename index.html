@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="index.js"></script>
+
+    <title>Document</title>
+</head>
+
+
+<body>
+
+
+    <header>
+        <h1>Actividad II</h1>
+    </header>
+
+
+    <section>
+
+
+        <div class="input-container">
+            <table>
+                <tr>
+                    <td><label>Id:</label></td>
+                    <td><input type="text" id="id" placeholder="Escriba la id"></td>
+                </tr>
+                <tr>
+                    <td><label>Nombre:</label></td>
+                    <td> <input type="text" id="name" placeholder="Escriba el nombre"></td>
+                </tr>
+                <tr>
+                    <td><label>Apellido:</label></td>
+                    <td> <input type="text" id="lastName" placeholder="Esscriba el apellido"></td>
+                </tr>
+                <tr>
+                    <td><label>Dirección:</label></td>
+                    <td><input type="text" id="address" placeholder="Escriba la dirección"></td>
+                </tr>
+                <tr>
+                    <td><label></label></td>
+                    <td>
+                        <div> <button onclick="load()">Listar</button>
+                            <button onclick="register()">Registrar</button>
+                            <button onclick="clearInput()">Limpiar</button>
+                        </div>
+                    </td>
+
+
+                </tr>
+
+            </table>
+
+
+        </div>
+
+
+        <div class="information-container">
+            <table border="1">
+                <thead>
+                    <th>N°</th>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Dirección</th>
+                </thead>
+                <tbody id=userList>
+                    <tr>
+                        <td>1</td>
+                        <td>10</td>
+                        <td>Jorge</td>
+                        <td>Rondon</td>
+                        <td>Cra 21</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
+    <footer>
+        <div>
+            <p> Jhon Camargo - Diseño Web I - 2022-1</p>
+            <a href="https://www.cuc.edu.co">
+                <img src="img\img4.jpg" class="unilogo" alt="Eventos">
+            </a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

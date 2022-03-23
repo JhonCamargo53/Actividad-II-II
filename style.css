@@ -1,0 +1,135 @@
+*{
+ margin:0;
+ padding:0;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header,section,footer{
+ background:#f7f7f7;
+ width: 75%;
+ max-width: 80%;
+ margin: 20px auto;
+}
+
+header{
+ background: #345866;
+ display: flex;
+ justify-content: center;
+ height: 60px;
+}
+
+h1{
+ padding: 10px;
+ color: white;
+}
+
+table{
+ text-align:right;
+ padding: 10px;
+}
+
+.information-container table td{
+ border: 1px solid black;
+ padding: 2px;
+ text-align: center;
+}
+
+.information-container th{
+ background: #345866;
+ color: white;
+ border: 1px solid black;
+ padding: 10px;
+ text-align: center;
+}
+
+.information-container table{
+ width: 90%;
+ border: 1px solid black;
+ border-collapse: collapse;
+ align-items: center;
+ float: left;
+ margin-right: 1.5%;
+ margin-bottom: 1.5%;
+}
+
+.information-container table td,th{
+ border: 1px solid black;
+ padding: 2px;
+ text-align: center;
+}
+
+.input-container{
+ border-radius: 10px;
+ height: 50%;
+ display: flex;
+ justify-content: center;
+}
+
+.information-container{
+ display: flex;
+ justify-content: center;
+}
+
+button{
+ color: #fff;
+ background-color: #51a1c0!important;
+ border-color:  #51a1c0!important;
+ display: inline-block;
+ color: #212529;
+ background-color: transparent;
+ padding: 6px 12px;
+ font-size: 15px;
+ line-height: 1.5;
+ border-radius: 0; 
+ cursor: pointer;
+ color: white;
+ margin: 4px
+}
+
+button:hover{
+ background-color: #2c9ac5!important;
+ border-color:  #2c9ac5!important;
+}
+
+input{
+ position: relative;
+ width: 20%;
+ display: block;
+ width: 90%;
+ height: 10px;
+ padding: 6px 12px;
+ font-size: 15px;
+ line-height: 1.5;
+ color: #495057;
+ border: 1px solid #8f959e;
+ background-color: #fff;
+ outline: none;
+}
+
+
+input:hover{
+ border-color:  #2c9ac5!important;
+}
+
+footer p {
+ height: 100px;
+ height: 10%;
+ display: flex;    
+ text-decoration: underline;  
+ text-shadow: #292323;
+ color: white;
+ font-size: 20px;   
+}
+
+footer div{
+ background: #345866;
+ padding:10px;
+ display: flex;
+ align-items: center;
+ justify-content:center  
+}
+
+.unilogo{
+ padding: 10px;
+ height: 60px;
+}
